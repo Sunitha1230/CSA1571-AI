@@ -92,5 +92,39 @@ STEP 7:Check for a win condition: 3 symbols in a row, column, or diagonal.
 STEP 8:If a win is detected, declare the current player as the winner.
 
 
+Apha & Beta pruning algorithm .
+ALGORITHM:
+STEP1:Start with the initial game state.
+STEP2:For each level of the game tree, use the Alpha-Beta Pruning algorithm to determine the STEP3: best move by considering the possible actions and their associated values.
+STEP4:Initialize alpha as negative infinity and beta as positive infinity.
+STEP5:Perform a recursive search through the game tree, alternating between maximizing and minimizing players.
+STEP6:During the search, update the alpha value for the maximizing player and the beta value for the minimizing player.
+STEP7:If the beta value becomes less than or equal to the alpha value at any point, prune the rest of the sub-tree, as the opponent will never allow the game to reach this state.
+STEP8:Continue the search until the entire game tree is explored or until a terminal state is reached.
+STEP9:Return the best move found during the search.
+
+
+Decision Tree.
+ALGORITHM:
+STEP1:start the program.
+STEP2: To divide the data based on target variables, choose the best feature employing Attribute   Selection Measures (ASM).
+STEP3:Then it will divide the dataset into smaller sub-datasets and designate that feature as a decision node for that branch.
+STEP4:Once one of the conditions matches, the procedure is repeated recursively for every child node to begin creating the tree.
+STEP5:The identical property value applies to each of the tuples.
+o	There aren't any more qualities left.
+o	There aren't any more occurrences.
+
+Feed forward neural Network.
+ALGORITHM:
+STEP1:start the program 
+STEP2:The input layer comprises neurons that receive input.
+STEP3:The hidden layer contains a large number of neurons that modify the inputs and interact with the output layer.
+STEP4:The output layer contains the result of the computation.
+
+
+
+
+
+
 
 
